@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 def get_redshift_connection(host: Union[str, None],
                             database: Union[str, None],
-                            user: Union[str, None] ,
+                            user: Union[str, None],
                             password: Union[str, None]) -> Union[Connection, None]:
     f"""
     get a redshift connector instantiated
